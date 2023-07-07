@@ -116,6 +116,14 @@ alias pc='sudo pacman -Sc' # remove unused cache
 alias po='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
 alias vc='code'  # gui code editor
 
+alias yay='paru' # use paru instead of yay
+alias vim='nvim' # vim
+alias matrix='cmatrix'
+alias pipe='pipes.sh'
+alias cat='cat -n'
+alias bonsai='cbonsai'
+alias pacgrep='pacman -Q | grep'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
