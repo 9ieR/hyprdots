@@ -110,10 +110,10 @@
 
     "battery": {
         "states": {
-        "good": 95,
-        "warning": 30,
-        "critical": 15
-     },
+	    	"good": 95,
+        	"warning": 30,
+        	"critical": 15
+	},
         "interval": 60,
         "format": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
