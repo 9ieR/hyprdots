@@ -118,7 +118,7 @@ alias vc='code'  # gui code editor
 
 alias yay='paru' # use paru instead of yay
 alias vim='nvim' # vim
-alias matrix='cmatrix'
+alias matrix='tmatrix'
 alias pipe='pipes.sh'
 alias cat='cat -n'
 alias bonsai='cbonsai'
