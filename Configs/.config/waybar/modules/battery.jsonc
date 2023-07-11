@@ -2,13 +2,12 @@
         "states": {
             "good": 95,
             "warning": 30,
-            "critical": 15
+            "critical": 20
         },
-	"interval": 60,
         "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-	"format-full": "",
-        "format-alt": "{time}",
-        "format-icons": ["", "", "", "", "", "", "", "","", ""]
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 

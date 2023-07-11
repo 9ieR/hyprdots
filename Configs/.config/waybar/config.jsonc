@@ -16,7 +16,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","custom/power","custom/cliphist","custom/wbar","custom/mode","custom/wallchange","custom/r_end","custom/l_end","wlr/taskbar","mpris","custom/r_end","","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","tray","battery","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","tray","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -93,7 +93,7 @@
         },
         "status-icons": {
             "paused": "⏸"
-        }
+        },
         // "ignored-players": ["firefox"]
     },
 
@@ -107,20 +107,6 @@
         "icon-size": 18,
         "spacing": 5
     },
-
-    "battery": {
-        "states": {
-	    	"good": 95,
-        	"warning": 30,
-        	"critical": 15
-	},
-        "interval": 60,
-        "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-full": "",
-        "format-alt": "{time}",
-        "format-icons": ["", "", "", "", "", "", "", "","", ""]
-     },
 
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
